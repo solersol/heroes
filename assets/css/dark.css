@@ -11,7 +11,89 @@
 */
 
 /* 1. Template Dark */
+.section.started{
+	background-image: url('/assets/images/bg.png'); /* Replace with your image file path */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+	height: 2000px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
+.started-content {
+    position: absolute; /* Position content absolutely within the section */
+    top: 15%; /* Position at the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    padding: 20px; /* Example: Add padding */
+    text-align: center; /* Ensure text alignment */
+}
+
+.ticker-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 0;
+    position: relative;
+	margin-bottom: 20px;
+}
+
+.ticker-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ticker {
+	font-size: 24px;
+    display: inline-block;
+    white-space: nowrap; /* Prevents words from wrapping */
+}
+
+.ticker-item {
+    margin-right: 50px; /* Adjust spacing between words */
+}
+
+/* Ticker scrolling animation */
+@keyframes tickerScroll {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+#copyText {
+	padding: 10px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	display: inline-block;
+	margin: 20px;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.copied-notification {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.copied-notification.show {
+	opacity: 1;
+}
 input:focus,
 textarea:focus,
 button:focus {
@@ -101,21 +183,34 @@ a.btn,
 .container, 
 .section:before, 
 .footer, 
-header, 
-.started-content .glitch-effect:before, 
+ .started-content .glitch-effect:before, 
 .started-content .glitch-effect:after, 
 .started-content .glitch-effect-white:before, 
 .started-content .glitch-effect-white:after, 
-header.fixed, 
-header.opened, 
+ 
+
 .footer.fixed,
 .popup-box, 
-.preloader,
-.skills.circles .progress:after,
-footer,
-header {
-	background: #31313a !important;
+
+.skills.circles .progress:after {
+	background: url(/assets/images/bgbg.png) !important;
 }
+.preloader{
+
+	background: url(/assets/images/bgload.gif);
+	background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+
+}
+header.fixed,
+header,
+header.opened, 
+footer{
+	background-color: transparent;
+}
+
+
 
 .background-enabled .started-content .glitch-effect:before, 
 .background-enabled .started-content .glitch-effect:after {
