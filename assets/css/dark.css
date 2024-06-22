@@ -132,7 +132,7 @@ textarea:focus:-ms-input-placeholder {
 }
 
 body, .container .line {
-	background: #26262d !important;
+	background: #26262d00 !important;
 }
 
 table th, 
@@ -374,4 +374,24 @@ header .logo a {
 
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
 	background: none !important;
+}
+
+.main__separator {
+	height: 100px;
+	width: 100vw;
+	background-image: url(../images/separator.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: repeat-x;
+	border: none;
+	animation: 30s marque infinite linear;
+}
+
+@keyframes marque {
+  from {
+    background-position: 0vw 0;
+  }
+  to {
+    background-position: 100vw 0;
+  }
 }
