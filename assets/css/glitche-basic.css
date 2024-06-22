@@ -69,22 +69,22 @@ body.loaded .section {
 /* 2. Container */
 .container {
 	position: relative !important;
-	margin: 30px !important;
+	 margin: 0px !important; 
 	overflow: hidden !important;
-	background: #000000 !important;
+	 background: #000000 !important; 
 	max-width:100% !important;
 	padding:0px !important;
 	width:auto !important;
 }
 
-@media (max-width: 840px) {
+/* @media (max-width: 840px) {
 	.container {
 		margin: 15px !important;
 	}
 
-}
+} */
 
-.container .line {
+/* .container .line {
 	content: '';
 	position: fixed;
 	background: var(--extra-color);
@@ -147,7 +147,7 @@ body.loaded .section {
 		width: 15px;
 	}
 
-}
+} */
 
 .wrapper {
 	overflow: hidden;
@@ -290,9 +290,9 @@ a.btn,
 
 a.btn.fill,
 .btn.fill {
-	color: #ffffff;
-	background: var(--extra-color);
-	border: 1px solid var(--extra-color);
+	color: #000000;
+	background: #e3d648;
+	border: 1px solid #7a6e03;
 }
 
 a.btn:hover,

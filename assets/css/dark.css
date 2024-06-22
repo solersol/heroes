@@ -132,9 +132,9 @@ textarea:focus:-ms-input-placeholder {
 	color: #f0f0f0 !important;
 }
 
-body, .container .line {
+/* body, .container .line {
 	background: #26262d00 !important;
-}
+} */
 
 table th, 
 table td {
@@ -189,7 +189,7 @@ a.btn,
 .skills ul li .name,
 .box-items .box-item .desc .name,
 .popup-box .desc h4 {
-	color: #f0f0f0;
+	color: #fff888;
 }
 
 .container, 
@@ -379,7 +379,7 @@ header .logo a {
 
 .main__separator {
 	height: 100px;
-	width: ;
+	/*width: ;*/
 	background-image: url(../images/separator.png);
 	background-size: contain;
 	background-position: center;

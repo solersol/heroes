@@ -14,6 +14,7 @@ module.exports = {
     },
     fontFamily: {
       roboto: ['Roboto Mono', "monospace"],
+      font1: ['font1', 'serif'],
     },
     extend: {
       colors: {
