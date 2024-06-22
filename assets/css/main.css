@@ -2473,9 +2473,9 @@ video {
   padding-bottom: 150px;
 }
 
-.pt-\[15px\] {
+/* .pt-\[15px\] {
   padding-top: 15px;
-}
+} */
 
 .pb-\[5px\] {
   padding-bottom: 5px;
@@ -3072,7 +3072,7 @@ video {
 }
 
 :root {
-  --extra-color: #f2d038;
+  --extra-color: #caf238;
   --text-shadow-color:#ede574;
 }
 
