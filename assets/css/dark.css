@@ -22,6 +22,17 @@
     justify-content: center;
     text-align: center;
 }
+.section.started.second{
+	background-image: url('/assets/images/we1.png'); /* Replace with your image file path */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+	height: 2000px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 .started-content {
     position: absolute; /* Position content absolutely within the section */
