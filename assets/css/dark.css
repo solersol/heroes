@@ -87,6 +87,7 @@
 	display: inline-block;
 	margin: 20px;
 	transition: background-color 0.3s, color 0.3s;
+	font-family: 'YourCustomFont', Arial, sans-serif;
 }
 
 .copied-notification {
@@ -204,7 +205,7 @@ a.btn,
 .popup-box, 
 
 .skills.circles .progress:after {
-	background: url(/assets/images/bgbg.png) !important;
+	background: color black  /*url(/assets/images/bgbg.png)*/ !important;
 }
 .preloader{
 
@@ -378,7 +379,7 @@ header .logo a {
 
 .main__separator {
 	height: 100px;
-	width: 100vw;
+	width: ;
 	background-image: url(../images/separator.png);
 	background-size: contain;
 	background-position: center;
@@ -394,4 +395,15 @@ header .logo a {
   to {
     background-position: 100vw 0;
   }
+}
+.spacer {
+	height: 200px; /* Adjust height as needed */
+}
+
+@font-face {
+	font-family: 'YourCustomFontas'; /* Replace 'YourCustomFont' with your preferred font name */
+	src: url('../fonts/rf.ttf') format('ttf'); /* Adjust path and format as per your font file */
+	/* You can add more src lines for different formats (e.g., woff, woff2) for better browser compatibility */
+	font-weight: normal;
+	font-style: normal;
 }
