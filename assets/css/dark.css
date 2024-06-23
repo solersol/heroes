@@ -11,12 +11,17 @@
 */
 
 /* 1. Template Dark */
+.section.clients{
+	width: 100%;
+}
+
 .section.started{
 	background-image: url('/assets/images/bg.png'); /* Replace with your image file path */
     background-size: cover; /* Cover the entire section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
 	height: 2000px;
+	width: 100%;
 	display: flex;
     align-items: center;
     justify-content: center;
