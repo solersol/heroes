@@ -103,7 +103,8 @@ header .head-top .top-menu ul li {
   transition: color 0.3s ease 0s;
 }
 header .head-top .top-menu ul li.active a {
-  color: var(--extra-color);
+  color: 
+  #10efaa;
 }
 header .head-top .top-menu ul li.active .btn {
   color: #ffffff;

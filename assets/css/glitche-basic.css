@@ -262,7 +262,7 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: var(--extra-color);
+	color: #10efaa;
 }
 
 /* 6. Buttons */
@@ -290,16 +290,16 @@ a.btn,
 
 a.btn.fill,
 .btn.fill {
-	color: #000000;
-	background: #e3d648;
-	border: 1px solid #7a6e03;
+	color: #ffffff;
+	background:#8874dc;
+	border: 1px solid #000000;
 }
 
 a.btn:hover,
 .btn:hover {
-	color: #ffffff;
-	background: var(--extra-color);
-	border: 1px solid var(--extra-color);
+	color: #000000;
+	background: #10efaa;
+	border: 2px solid #000000;
 }
 
 /* 7. Preloader */

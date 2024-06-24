@@ -16,7 +16,7 @@
 }
 
 .section.started{
-	background-image: url('/assets/images/bg.png'); /* Replace with your image file path */
+	background-image: url('/assets/images/bg.gif'); /* Replace with your image file path */
     background-size: cover; /* Cover the entire section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
@@ -41,7 +41,7 @@
 
 .started-content {
     position: absolute; /* Position content absolutely within the section */
-    top: 15%; /* Position at the top */
+    top: 21%; /* Position at the top */
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Adjust for centering */
     padding: 20px; /* Example: Add padding */
@@ -87,7 +87,7 @@
 
 #copyText {
 	padding: 10px;
-	border: 1px solid #ccc;
+	border: 2px solid #10efaa;
 	cursor: pointer;
 	display: inline-block;
 	margin: 20px;
@@ -194,9 +194,16 @@ a.btn,
 .skills ul li .name,
 .box-items .box-item .desc .name,
 .popup-box .desc h4 {
-	color: #fff888;
+	color:#8874dc;
 }
-
+#video-bg {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
 .container, 
 .section:before, 
 .footer, 

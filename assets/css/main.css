@@ -2582,6 +2582,8 @@ video {
 }
 
 .text-\[13px\] {
+  color : 
+  #10efaa;
   font-size: 13px;
 }
 
@@ -2734,7 +2736,7 @@ video {
 
 .text-\[\#999\] {
   --tw-text-opacity: 1;
-  color: rgb(153 153 153 / var(--tw-text-opacity));
+  color: #10efaa;
 }
 
 .text-\[\#336699\]\/\[\.35\] {
