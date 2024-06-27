@@ -13,8 +13,9 @@ module.exports = {
       'max-400': {'max': '400px'},
     },
     fontFamily: {
-      roboto: ['Roboto Mono', "monospace"],
-      font1: ['font1', 'serif'],
+      roboto: ['Bangers', "monospace"],
+      playfont: ['Bangers', 'serif'],
+      bangers: ["Bangers", system-ui],
     },
     extend: {
       colors: {

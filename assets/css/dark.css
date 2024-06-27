@@ -16,7 +16,7 @@
 }
 
 .section.started{
-	background-image: url('/assets/images/bg.gif'); /* Replace with your image file path */
+	background-image: url('/assets/images/mainbg.png'); /* Replace with your image file path */
     background-size: cover; /* Cover the entire section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
@@ -221,7 +221,7 @@ a.btn,
 }
 .preloader{
 
-	background: url(/assets/images/bgload.gif);
+	background: url(/assets/images/loader.gif);
 	background-size: cover; /* Cover the entire section */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
